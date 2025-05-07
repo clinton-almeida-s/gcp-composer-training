@@ -9,10 +9,10 @@ default_args = {
     'retries': 1,
 }
 
-BUCKET_NAME = 'your-bucket-name'
+BUCKET_NAME = 'us-central1-composer-mug-de-87e392bb-bucket'
 SOURCE_OBJECT = 'data/sample.csv'
-BQ_DATASET = 'your_dataset'
-BQ_TABLE = 'sample_table'
+BQ_DATASET = 'my_dataset_r2'
+BQ_TABLE = 'demo_composer'
 
 def log_upload():
     print(f"Assuming file gs://{BUCKET_NAME}/{SOURCE_OBJECT} is ready for load.")
