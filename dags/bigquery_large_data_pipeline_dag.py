@@ -23,7 +23,7 @@ with DAG(
         schema_fields=[
             {"name": "id", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "name", "type": "STRING", "mode": "REQUIRED"},
-            {"name": "salary", "type": "FLOAT", "mode": "REQUIRED"},
+            {"name": "salary", "type": "INTEGER", "mode": "REQUIRED"},
             {"name": "load_date", "type": "DATE", "mode": "REQUIRED"}
         ],
         time_partitioning={"field": "load_date"}
