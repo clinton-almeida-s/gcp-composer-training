@@ -1,6 +1,6 @@
 from airflow import DAG
 from datetime import datetime
-from plugins.operators.api_operator import APIOperator
+from operators.api_operator import APIOperator
 
 with DAG(
     dag_id="api_operator_example",
