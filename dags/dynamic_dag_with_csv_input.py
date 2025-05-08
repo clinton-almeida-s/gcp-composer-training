@@ -4,7 +4,7 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime
 
 # Define the CSV input file path
-file_path = "/path/to/your/input_data.csv"
+file_path = "gs://us-central1-composer-small-be81d71a-bucket/data/input_data.csv"
 
 # Function to read the input file
 def read_csv_file(file_path, **kwargs):
