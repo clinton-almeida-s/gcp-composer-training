@@ -11,6 +11,6 @@ with DAG(
 
     api_task = APIOperator(
         task_id="fetch_api_data",
-        endpoint="https://jsonplaceholder.typicode.com/posts/1",
+        endpoint="https://catfact.ninja/fact",
         dag=dag
     )
