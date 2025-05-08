@@ -9,7 +9,7 @@ default_args = {
     'retries': 1,
 }
 
-BUCKET_NAME = 'us-central1-composer-mug-de-87e392bb-bucket'
+BUCKET_NAME = ' us-central1-composer-small-be81d71a-bucket'
 SOURCE_OBJECT = 'data/sample.csv'
 BQ_DATASET = 'my_dataset_r2'
 BQ_TABLE = 'demo_composer'
